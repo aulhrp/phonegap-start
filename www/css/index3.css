@@ -1,0 +1,231 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+body {
+	background-color:#000;
+    background-attachment:fixed;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+
+	
+.kontak {
+	background: url(../img/kontak.png);
+	height: 800px;
+	width: 480px;
+	position: absolute;
+}
+
+
+
+
+
+.half a {
+	text-decoration:none;
+	color:#030;
+}
+
+
+.col_175 { 
+	width: 175px; 
+}
+
+.section {
+	width:300px;
+	font-family:"Helvetica93-Extended";
+	font-size:20px;
+	color:#FFF;
+	position:absolute;
+	margin-top:150px;
+	margin-left:89px;
+	text-align:center;
+}
+
+.h40 {
+	height:40px;
+}
+
+h3 {
+	color:#CCC;
+}
+
+input, textarea {
+	text-align:center;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	height:30px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+
+
+textarea {
+	width: 200px;
+	height: 80px;
+	max-height:120px;
+	max-width:200px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;		
+}
+
+.form label {
+	color: #999999;
+}
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color:#030; 
+	color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
+}
+
+.help {
+	background:url(../img/help.png);
+	height:800px;
+	width:480px;
+	position:absolute;
+}
+
+.page1 {
+	background:url(../img/Menu%201/Background.png);
+	height:800px;
+	width:480px;
+	position:absolute;
+}
+
+.p11 {
+	background:url(../img/Menu%201/Pilihan1.png);
+	width:287px;
+	height:113px;
+	margin-left:100px;
+	margin-top:110px
+}
+
+.p11:hover {
+	background:url(../img/Menu%201/Pilihan%201h.png);
+}
+
+.p12 {
+	background:url(../img/Menu%201/Pilihan2.png);
+	width:287px;
+	height:117px;
+	margin-left:100px;
+	margin-top:0px
+}
+
+.p12:hover {
+	background:url(../img/Menu%201/Pilihan%202h.png);
+}
+
+
+.page2 {
+	background:url(../img/Menu%202/Background.png);
+	height:800px;
+	width:480px;
+	position:absolute;
+}
+
+.p21 {
+	background:url(../img/Menu%202/pilihan1.png);
+	width:287px;
+	height:113px;
+	margin-left:100px;
+	margin-top:110px
+}
+
+.p21:hover {
+	background:url(../img/Menu%202/pilihan1h.png);
+}
+
+.p22 {
+	background:url(../img/Menu%202/pilihan2.png);
+	width:287px;
+	height:115px;
+	margin-left:100px;
+	margin-top:0px
+}
+
+.p22:hover {
+	background:url(../img/Menu%202/pilihan2h.png);
+}
+
+
+.page3 {
+	background:url(../img/Menu%203/Background.png);
+	height:800px;
+	width:480px;
+	position:absolute;
+}
+
+.p31 {
+	background:url(../img/Menu%203/pilihan1.png);
+	width:287px;
+	height:113px;
+	margin-left:100px;
+	margin-top:110px
+}
+
+.p31:hover {
+	background:url(../img/Menu%203/pilihan1h.png);
+}
+
+.p32 {
+	background:url(../img/Menu%203/pilihan2.png);
+	width:287px;
+	height:115px;
+	margin-left:100px;
+	margin-top:0px
+}
+
+.p32:hover {
+	background:url(../img/Menu%203/pilihan2h.png);
+}
+
+
+
+.container {
+	width:480px;
+	height:800px;
+	margin: 0 auto;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px)
