@@ -1,0 +1,108 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+body {
+	background-color:#000;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+
+	
+.atas {
+	background: url(../img/Home/Top.gif);
+	position: absolute;
+	width:456px;
+	height:244px;
+	margin-left:11px;
+	margin-top:9px;
+/* offset horizontal: half of text area width */
+}
+
+
+.kiri {
+	background:url(../img/Home/Left.png);
+	position:absolute;
+	margin-top:260px;
+	width:203px;
+	height:237px;
+	margin-left:11px;
+}
+
+.kiri:hover {
+	background:url(file:///C|/Users/Aulia%20Harahap/Documents/Visual%20Studio%202012/Projects/MauKemanaBebas/MauKemanaBebas/www/img/Home/Left1.png)}
+
+.kanan1 {
+	background:url(../img/Home/Right%201.png);
+	position:absolute;
+	width:246px;
+	height:122px;
+	margin-top:260px;
+	margin-left:222px;
+}
+
+.kanan1:hover {
+	background:url(file:///C|/Users/Aulia%20Harahap/Documents/Visual%20Studio%202012/Projects/MauKemanaBebas/MauKemanaBebas/www/img/Home/Right11.png)}
+
+.kanan2 {
+	background:url(../img/Home/Right%202.png);
+	position:absolute;
+	width:246px;
+	height:107px;
+	margin-top:389px;
+	margin-left:222px;
+}
+
+.kanan2:hover {
+	background:url(file:///C|/Users/Aulia%20Harahap/Documents/Visual%20Studio%202012/Projects/MauKemanaBebas/MauKemanaBebas/www/img/Home/Right12.png)}
+
+.bawah {
+	background: url(../img/Home/Bottom.png);
+	position: absolute;
+	width: 456px;
+	height: 285px;
+	margin-top: 504px;
+	margin-left:11px;
+
+}
+
+.bawah:hover {
+	background:url(file:///C|/Users/Aulia%20Harahap/Documents/Visual%20Studio%202012/Projects/MauKemanaBebas/MauKemanaBebas/www/img/Home/Bottom1.png)}
+.container {
+	width:480px;
+	height:800px;
+	margin: 0 auto;
+	min-height:100px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px)
